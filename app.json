@@ -1,0 +1,38 @@
+{
+  "name": "Telegraph-Uploader",
+  "description": "Telegraph-Uploader is a Telegram bot that facilitates the upload of photos to Telegra.ph and generates instant view links for Telegram text messages.",
+  "logo": "https://te.legra.ph/file/bdaf4910f5c145d72ae33-9dfdc282bf781a02c5.jpg",
+  "keywords": [
+    "telegram",
+    "Python",
+    "Telegraph",
+    "bot",
+    "uploader"
+  ],
+  "repository": "https://github.com/TheHamkerGuy/TeleUploaderBot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Eco"
+    }
+  }
+}
