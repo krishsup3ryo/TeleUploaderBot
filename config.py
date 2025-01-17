@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    API_ID = int(getenv("API_ID", "0"))
-    API_HASH = getenv("API_HASH")
-    BOT_TOKEN = getenv("BOT_TOKEN")
+    API_ID = int(getenv("API_ID", "22270544"))
+    API_HASH = getenv("12fd6c5d681c662e28da50bbcb8ebd06")
+    BOT_TOKEN = getenv("7269795660:AAGC8oFnwWCPQMwdMETSTCdgQK3fA4yOerA")
     
