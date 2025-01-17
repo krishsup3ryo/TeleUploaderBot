@@ -64,9 +64,9 @@ class Bot(Client):  # pylint: disable=too-many-ancestors
         """Initializes the bot with the provided configuration."""
         super().__init__(
             "telegraph",
-            bot_token=Config.BOT_TOKEN,
-            api_id=Config.API_ID,
-            api_hash=Config.API_HASH,
+            bot_token="7269795660:AAGC8oFnwWCPQMwdMETSTCdgQK3fA4yOerA",
+            api_id=22270544,
+            api_hash="12fd6c5d681c662e28da50bbcb8ebd06",
         )
 
     async def start(self):
